@@ -1,23 +1,39 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Challenge: A picture-perfect trip</title>
         <meta charset="utf-8">
+        <title>Challenge: Position planet</title>
+        <style>
+            #greeting {
+                background: rgb(255, 255, 0);
+                border: 2px solid black;
+                font-family: "Comic Sans MS", fantasy;
+                padding: 5px;
+                width: 262px;
+                position: absolute;
+                top: 55px;
+                left: 145px;
+                z-index: 3;
+            }
+
+            #creature {
+              position: absolute;
+              top: 20px;
+              left:30px;
+              z-index: 2;
+            }
+        </style>
     </head>
     <body>
-        <h1>The perfect trip</h1>
 
-        <p>I would see scenes like...</p>
+        <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" width="300">
 
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Faustralia-best-beaches%2Findex.html&psig=AOvVaw32moIdk21YQTohVyGfBJYS&ust=1583617444974000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj_3orohugCFQAAAAAdAAAAABAD" alt="a beach with palm trees by the bank">
+        <div id="greeting">
+            <p>Hello! Welcome to position planet!</p>
+        </div>
 
-        <p>And animals like...</p>
+        <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
 
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fanimal%2Fdolphin-mammal&psig=AOvVaw1FnEU-J806P49cfFDdlXRc&ust=1583617987194000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMi1z4zqhugCFQAAAAAdAAAAABAD" alt="a picture of an oceanic dolphin">
-
-        <p>And eat food like...</p>
-
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fstock-photos-tropical-food-aitutaki-lagoon-cook-islands-fresh-fruits-banaba-watermelon-served-resort-table-image34965923&psig=AOvVaw3bNtv9oVA-NlAEHnAXvKnF&ust=1583618469922000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiUovbrhugCFQAAAAAdAAAAABAP" alt="a picture of a bunch of bananas and cut watermelon">
 
     </body>
 </html>
